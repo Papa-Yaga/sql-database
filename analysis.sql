@@ -33,7 +33,7 @@ USING(crash_data)
 GROUP BY crash_data;
 
 CREATE VIEW view_all AS
-SELECT country, ROUND(AVG(suicides),2),
+SELECT country, ROUND(AVG(suicides),2) AS suicides,
 CASE
 	WHEN years > 2010 THEN "After GEC"
     ELSE "Before GEC"

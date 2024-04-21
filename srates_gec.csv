@@ -1,4 +1,4 @@
-country,"ROUND(AVG(suicides),2)",crash_data
+country,suicides,crash_data
 Albania,3.5,"Before GEC"
 "Antigua and Barbuda",0.59,"Before GEC"
 "Antigua and Barbuda",0.33,"After GEC"
